@@ -5,4 +5,6 @@ micros:
     - name: Stars
       src: .
       engine: next
+      public_routes:
+        - '/*'
       primary: true
